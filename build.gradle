@@ -1,0 +1,18 @@
+plugins {
+    id 'org.springframework.boot' version '1.5.2.RELEASE'
+}
+
+apply plugin: 'java'
+
+repositories {
+    jcenter()
+}
+
+dependencies {
+    compile 'org.slf4j:slf4j-api:1.7.21'
+    compile 'org.springframework.boot:spring-boot-starter-web'
+
+    testCompile 'junit:junit:4.12'
+    testCompile 'org.springframework.boot:spring-boot-starter-test'
+
+}
